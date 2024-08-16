@@ -1,0 +1,27 @@
+.taskListContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+   border-radius: 10px;
+}
+.lowPriority{
+    background-color: rgb(148, 218, 255);
+}
+
+.mediumPriority{
+    background-color: orange;
+}
+.highPriority{
+    background-color: red;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    gap:1rem
+}
+.getPriorityColor{
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 500px 500px ;
+    grid-gap:50px;
+    align-items: center;
+   
+    border-radius: 10px;
+ box-shadow: 10px 5px 5px rgb(186, 182, 182);;
+    background-color: rgb(241, 225, 255);
+    padding: 50px;
+   width : 50%;
+   margin-left: 25%;
+   margin-top: 20px;
+    
+}
+.submitButton{
+    display: row;
+    align-self: center;
+   width: 25%;
+} 

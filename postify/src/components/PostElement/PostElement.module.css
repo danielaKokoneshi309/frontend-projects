@@ -1,0 +1,31 @@
+.formContainer{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+    grid-template-columns: 100px 100px ;
+    grid-gap:30px;
+    align-items: center;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: 10px 5px 5px rgb(186, 182, 182);
+    border-radius: 10px;
+    background-color: rgb(241, 225, 255);
+    padding: 50px;
+    width: 100%;
+    
+}
+
+.button-class{
+    
+    grid-template-columns: 100px 100px ;
+    grid-gap:10px;
+   display: flex;
+   flex-direction: row;
+    
+}
+.btn-light{
+  color: none;
+    display: flex;
+   
+}

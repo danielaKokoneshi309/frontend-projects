@@ -1,0 +1,29 @@
+ .tasksContainer{
+   
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}.title{
+    font-size: 30px;
+}
+.completed{
+    text-decoration: line-through;
+}
+
+.backgroundComplete{
+    opacity: 0.5;
+}
+.tasksContainer{
+    
+    flex-direction: column;
+    gap: 2rem;
+   
+}
